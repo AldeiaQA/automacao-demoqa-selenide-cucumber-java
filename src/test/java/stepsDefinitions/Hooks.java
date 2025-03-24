@@ -23,10 +23,10 @@ public class Hooks {
 		browser.openPage("droppable");
 	}
 	
-	@AfterStep
-	public void tearDownSteps(Scenario scenario) throws InterruptedException {
-		capturarScreenshot(scenario);	
-	}
+//	@AfterStep
+//	public void tearDownSteps(Scenario scenario) throws InterruptedException {
+//		capturarScreenshot(scenario);	
+//	}
 	
 	@After
 	public void tearDown() throws InterruptedException {

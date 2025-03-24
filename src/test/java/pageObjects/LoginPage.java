@@ -9,11 +9,11 @@ import com.codeborne.selenide.SelenideElement;
 public class LoginPage {
 	
 	//ELMENTOS
-	SelenideElement campoUserName = $(By.id("userName"));
-	SelenideElement campoPassword = $(By.id("password"));
-	SelenideElement botaoLogin = $(By.id("login"));
-	SelenideElement textoUserName = $(By.id("userName-value"));
-	SelenideElement textoLoginInvalido = $(By.id("name"));
+	private SelenideElement campoUserName = $(By.id("userName"));
+	private SelenideElement campoPassword = $(By.id("password"));
+	private SelenideElement botaoLogin = $(By.id("login"));
+	private SelenideElement textoUserName = $(By.id("userName-value"));
+	private SelenideElement textoLoginInvalido = $(By.id("name"));
 	
 	//METODOS
 	public void informarCampoUserName(String userName) {
